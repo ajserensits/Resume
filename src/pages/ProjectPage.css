@@ -1,0 +1,110 @@
+video {
+  width: 100%;
+}
+
+.project-page-div button {
+  background-color: transparent;
+  color: blue;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.project-page-div button:hover {
+  color: darkblue;
+}
+
+.media-div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  border-bottom: 2px dashed transparent; /* Transparent fallback */
+  border-image: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient colors */
+  border-image-slice: 1; /* Applies the gradient across the border */
+  border-radius: 8px;
+
+  width: 100%;
+}
+
+.media-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .media-div {
+    width: 50%; /* Half width on screens 768px and wider */
+  }
+}
+
+/* Full Screen Image */
+
+/* Thumbnail Styles */
+.image-gallery {
+  display: flex;
+  gap: 10px;
+}
+
+.thumbnail {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.thumbnail:hover {
+  transform: scale(1.05);
+}
+
+/* Full-Screen Overlay Styles */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.expanded-image {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.expanded-image:hover {
+  transform: scale(1.02);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  line-height: 1.6;
+}
+
+p {
+  font-size: 1rem; /* 16px */
+}
+
+@media (min-width: 768px) {
+  p {
+    font-size: 1.125rem; /* 18px */
+  }
+}
