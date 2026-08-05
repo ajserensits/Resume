@@ -9,7 +9,7 @@ const Contact: React.FC = () => {
             <h1>Contact Me</h1>
             <p>
               Have any questions or want to get in touch? 
-              Reach me at <strong>ajserensits@gmail.com</strong>.  I typically respond quickly!
+              Reach me at <strong><a href="mailto:ajserensits@gmail.com">ajserensits@gmail.com</a></strong>.  I typically respond quickly!
             </p>
           </header>
         </div>

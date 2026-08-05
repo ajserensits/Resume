@@ -20,7 +20,7 @@ const About: React.FC = () => {
             <div>
               <h2>Andrew Serensits</h2>
               <p>
-                Hello! I'm a passionate <strong>software developer</strong> with
+                Hello! I'm a passionate <strong>software engineer</strong> with
                 expertise in creating intuitive web applications. I enjoy
                 translating ideas into clean, efficient code.  I have a B.S. Computer Science degree
                 from Loyola University Maryland where I graduated in 2018.  Check out my <a href="https://www.linkedin.com/in/andrew-serensits-491820131/">LinkedIn</a> for 
@@ -33,14 +33,15 @@ const About: React.FC = () => {
           <section className="skills-section">
             <h3>Skills</h3>
             <ul>
-              <li>React, TypeScript, JavaScript</li>
+              <li>React, TypeScript, JavaScript, Go</li>
               <li>Node.js, Express.js</li>
               <li>HTML, CSS, Material UI</li>
               <li>OpenAI and prompt engineering</li>
               <li>Leveraging ChatGPT to expedite development process but knowing enough to spot when it is not doing something the correct way</li>
+              <li><strong>Claude Code:</strong> Using Anthropic's agentic coding CLI as a daily development partner, from planning and implementing features to managing git workflows and deploying applications</li>
               <li>REST APIs</li>
               <li><strong>Google Cloud Platform (GCP):</strong> Managed Instance Groups, Cloud NAT Gateway, Load Balancer, Cloud Functions, Dialogflow</li>
-              <li><strong>Amazon Web Services (AWS):</strong> FireStore</li>
+              <li><strong>Amazon Web Services (AWS):</strong> FireStore, Fargate, Load Balancers</li>
               <li><strong>Communication:</strong> Experience with Twilio, Zoom, Avaya APIs</li>
               <li><strong>Testing:</strong> Selenium Web Driver and tests written in Gherkin Syntax</li>
               <li>Experience writing Java Web Services that call other Google Cloud Function</li>
