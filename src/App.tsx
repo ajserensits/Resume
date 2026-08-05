@@ -9,14 +9,14 @@ import Navbar from "./components/Navbar";
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/MyResume/build">
       <Navbar />
       <Routes>
-        <Route path="/MyResume/build" element={<Home />} />
-        <Route path="/MyResume/build/home" element={<Home />} />
-        <Route path="/MyResume/build/project/:id" element={<ProjectPage />} />
-        <Route path="/MyResume/build/about/" element={<About />} />
-        <Route path="/MyResume/build/contact/" element={<Contact />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/project/:id" element={<ProjectPage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );

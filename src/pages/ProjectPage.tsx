@@ -186,7 +186,7 @@ const ProjectPage: React.FC = () => {
 
   return (
     <div className="project-page-div">
-      <Link to="/MyResume/build" className="back-link">Back to Projects</Link>
+      <Link to="/" className="back-link">Back to Projects</Link>
       <h1>{project.title}</h1>
       <h3>Use Case Description</h3>
       <p>

@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <Link to="/MyResume/build/home" className="navbar-logo">
+        <Link to="/home" className="navbar-logo">
           MyPortfolio
         </Link>
         <button className="menu-toggle" onClick={toggleMobileMenu}>
@@ -20,17 +20,17 @@ const Navbar: React.FC = () => {
         </button>
         <ul className={`nav-links ${isMobileMenuOpen ? "active" : ""}`}>
           <li>
-            <Link to="/MyResume/build/home" onClick={() => setIsMobileMenuOpen(false)}>
+            <Link to="/home" onClick={() => setIsMobileMenuOpen(false)}>
               Home
             </Link>
           </li>
           <li>
-            <Link to="/MyResume/build/about" onClick={() => setIsMobileMenuOpen(false)}>
+            <Link to="/about" onClick={() => setIsMobileMenuOpen(false)}>
               About
             </Link>
           </li>
           <li>
-            <Link to="/MyResume/build/contact" onClick={() => setIsMobileMenuOpen(false)}>
+            <Link to="/contact" onClick={() => setIsMobileMenuOpen(false)}>
               Contact
             </Link>
           </li>
