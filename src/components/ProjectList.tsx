@@ -58,7 +58,7 @@ const ProjectList: React.FC = () => {
           <img className="thumbnail-image" src={project.thumbnail} alt={project.title} />
           <h2>{project.title}</h2>
           <p>{project.description}</p>
-          <Link to={`/MyResume/build/project/${project.id}`}>View Details</Link>
+          <Link to={`/project/${project.id}`}>View Details</Link>
         </div>
       ))}
     </div>
